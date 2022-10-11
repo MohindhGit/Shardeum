@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@shm/Icons": ["components/common/Icons"],
+      "@shm/components/*": ["components/*"],
+      "@shm/utils": ["utils"],
+      "@shm/hooks": ["hooks"]
+    },
+    "baseUrl": "."
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "constants/notion.ts"],
+  "exclude": ["node_modules"]
+}
