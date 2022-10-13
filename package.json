@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "0.4.0",
+    "typecheck": "4.8",
     "format:check": "npx prettier -c \"**/*.{js,jsx,json,ts,tsx}\"   ",
     "format": "npx prettier -w \"**/*.{js,jsx,json,ts,tsx}\"",
     "prepare": "husky install",
